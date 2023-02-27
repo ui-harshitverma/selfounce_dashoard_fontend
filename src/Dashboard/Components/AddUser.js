@@ -17,7 +17,7 @@ export const AddUser = () => {
   const [adduser, setAdduser] = useState();
   const adduserfetch = async () => {
     await axios
-      .get("https://dashboard-application-b2k5.onrender.com/")
+      .get("https://dashboardapplication.onrender.com")
       .then((res) => {
         setAdduser(res.data.data.userData);
       })

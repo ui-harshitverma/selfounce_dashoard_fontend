@@ -4,10 +4,6 @@ import React from 'react'
 // import { useState } from 'react'
 
 function NewJoinMember() {
-	const [data, setdata] = useState({
-		name: "",
-		date: ""
-	})
 
 	// const onChange = (e) => {
 	// 	setdata({

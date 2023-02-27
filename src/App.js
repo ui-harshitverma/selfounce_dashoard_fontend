@@ -21,7 +21,7 @@ function App() {
   const [productData, setProductData] = useState();
   useEffect(() => {
     axios
-      .get("http://localhost:4000/productlist")
+      .get("https://dashboard-application-b2k5.onrender.com/productlist")
       .then((res) => {
         setProductData(res.data.data);
         

@@ -17,7 +17,7 @@ export const AddUser = () => {
   const [adduser, setAdduser] = useState();
   const adduserfetch = async () => {
     await axios
-      .get("http://localhost:4000/")
+      .get("https://dashboard-application-b2k5.onrender.com/")
       .then((res) => {
         setAdduser(res.data.data.userData);
       })
@@ -32,7 +32,7 @@ export const AddUser = () => {
   const removeMember = async (id) => {
     console.log(id);
     const userFilter = adduser.find((items) => items._id === id);
-    await axios.post("http://localhost:4000/", userFilter).then((res) => {
+    await axios.post("https://dashboard-application-b2k5.onrender.com/", userFilter).then((res) => {
       console.log(res);
     });
     adduserfetch();

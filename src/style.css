@@ -1,0 +1,32 @@
+body .inte--Textfield__thick .inte-formElement.inte-formElementTextfield{
+	height: 4rem !important
+}
+body ul.inte-btn--Dropdown__Popover {
+	z-index: 1;
+	width: 16rem;
+}
+.hellos .ant-upload.ant-upload-select-picture-card {
+    width: 100%;
+    min-height: 190px;
+}
+.avatar-uploader1 .ant-upload-select-picture-card {
+    width: 100%;
+}
+.inte__Sidebar--toggle, .inte-btn--Primary {
+    background-color: rgb(68 68 68);
+}
+
+.sizeclass{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.fileStyle .ant-upload.ant-upload-select-picture-card {
+    width: 100%;
+    height: 95px;
+}
+
+.toastClass{
+    z-index: 99999999;
+}
